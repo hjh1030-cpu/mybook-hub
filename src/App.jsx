@@ -136,7 +136,7 @@ function App() {
 				)}
 
 				<div className="page-header">
-					<h1>{activeGenre ? `${activeGenre} Books` : "My Library"}</h1>
+					<h1>{activeGenre ? `${activeGenre} Books` : "수정중"}</h1>
 					<p className="text-gray-900">
 						{activeGenre
 							? `Explore our collection of ${activeGenre.toLowerCase()} books`
